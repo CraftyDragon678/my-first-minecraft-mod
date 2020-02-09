@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a12521-f85a-4b04-a9e4-0324994ef765" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/ArmorStandEntityRendererMixin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/GameRendererMixin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/GameRendererMixin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,10 +160,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="847" y="773" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581254249244" />
-    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser" timestamp="1581229805903">
+    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser" timestamp="1581259629276">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581229805903" />
+    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581259629276" />
     <state x="1745" y="1059" width="685" height="568" key="FileChooserDialogImpl" timestamp="1581254065850">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -210,10 +212,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1392" y="765" width="672" height="677" key="run.anything.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581252113921" />
-    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup" timestamp="1581251251934">
+    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup" timestamp="1581259425205">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581251251934" />
+    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581259425205" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_first_minecraft_mod$Minecraft_Client.ic" NAME="Minecraft Client Coverage Results" MODIFIED="1581232594195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
