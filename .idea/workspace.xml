@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90a12521-f85a-4b04-a9e4-0324994ef765" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/CameraMixin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/TestMod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/TestMod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/GameRendererMixin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/cragon/testmod/mixin/GameRendererMixin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-first-minecraft-mod" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-first-minecraft-mod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-first-minecraft-mod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="minecraftmapped" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XYIXhqaOAGZFADEgw3EI42okKj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15119047" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.cragon.testmod.mixin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Minecraft\Mods\my-first-minecraft-mod\src\main\kotlin\com\cragon\testmod" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle idea" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration name="my-first-minecraft-mod [idea]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="idea" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-first-minecraft-mod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.my-first-minecraft-mod [idea]" />
+      <item itemvalue="Gradle.my-first-minecraft-mod [runClient]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.my-first-minecraft-mod [runClient]" />
+        <item itemvalue="Gradle.my-first-minecraft-mod [idea]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90a12521-f85a-4b04-a9e4-0324994ef765" name="Default Changelist" comment="" />
+      <created>1581216642031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581216642031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2209" y="687" width="877" height="783" key="#Project_Structure" timestamp="1581254066838">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2209" y="687" width="877" height="783" key="#Project_Structure/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581254066838" />
+    <state x="847" y="773" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581254249244">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="847" y="773" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581254249244" />
+    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser" timestamp="1581229805903">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1129" y="1297" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581229805903" />
+    <state x="1745" y="1059" width="685" height="568" key="FileChooserDialogImpl" timestamp="1581254065850">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1745" y="1059" width="685" height="568" key="FileChooserDialogImpl/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581254065850" />
+    <state width="2014" height="207" key="GridCell.Tab.0.bottom" timestamp="1581257299256">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2014" height="207" key="GridCell.Tab.0.bottom/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581257299256" />
+    <state width="2014" height="207" key="GridCell.Tab.0.center" timestamp="1581257299255">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2014" height="207" key="GridCell.Tab.0.center/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581257299255" />
+    <state width="2014" height="207" key="GridCell.Tab.0.left" timestamp="1581257299255">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2014" height="207" key="GridCell.Tab.0.left/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581257299255" />
+    <state width="2014" height="207" key="GridCell.Tab.0.right" timestamp="1581257299255">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2014" height="207" key="GridCell.Tab.0.right/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581257299255" />
+    <state width="1896" height="282" key="GridCell.Tab.1.bottom" timestamp="1581253345091">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1896" height="282" key="GridCell.Tab.1.bottom/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253345091" />
+    <state width="1896" height="282" key="GridCell.Tab.1.center" timestamp="1581253345091">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1896" height="282" key="GridCell.Tab.1.center/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253345091" />
+    <state width="1896" height="282" key="GridCell.Tab.1.left" timestamp="1581253345091">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1896" height="282" key="GridCell.Tab.1.left/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253345091" />
+    <state width="1896" height="282" key="GridCell.Tab.1.right" timestamp="1581253345091">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1896" height="282" key="GridCell.Tab.1.right/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253345091" />
+    <state x="2290" y="782" key="com.intellij.ide.util.TipDialog" timestamp="1581253894811">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2290" y="782" key="com.intellij.ide.util.TipDialog/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253894811" />
+    <state x="1413" y="1292" width="986" height="548" key="find.popup" timestamp="1581253913300">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1413" y="1292" width="986" height="548" key="find.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581253913300" />
+    <state x="1392" y="765" width="672" height="677" key="run.anything.popup" timestamp="1581252113921">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1392" y="765" width="672" height="677" key="run.anything.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581252113921" />
+    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup" timestamp="1581251251934">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1359" y="1245" width="672" height="678" key="search.everywhere.popup/0.0.3840.2160/3840.-654.1920.1080@0.0.3840.2160" timestamp="1581251251934" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_first_minecraft_mod$Minecraft_Client.ic" NAME="Minecraft Client Coverage Results" MODIFIED="1581232594195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
