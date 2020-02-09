@@ -62,9 +62,6 @@ task sourcesJar(type: Jar, dependsOn: classes) {
     from sourceSets.main.allSource
 }
 
-jar {
-    from "LICENSE"
-}
 
 // configure the maven publication
 publishing {
