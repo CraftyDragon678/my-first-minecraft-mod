@@ -22,6 +22,9 @@
       "com.cragon.testmod.TestModKt::init"
     ]
   },
+  "mixins": [
+    "testmod.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.7.1",
     "fabric": "*",
