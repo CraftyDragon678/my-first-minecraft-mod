@@ -2,10 +2,7 @@ package com.cragon.testmod
 
 import net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding
 import net.fabricmc.fabric.api.client.keybinding.KeyBindingRegistry
-import net.fabricmc.fabric.api.event.client.ClientTickCallback
-import net.minecraft.client.MinecraftClient
 import net.minecraft.client.util.InputUtil
-import net.minecraft.client.world.ClientWorld
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
 import net.minecraft.util.Identifier

@@ -2,7 +2,6 @@ package com.cragon.testmod.mixin
 
 import com.cragon.testmod.zoomInKey
 import com.cragon.testmod.zoomOutKey
-import net.minecraft.client.MinecraftClient
 import net.minecraft.client.options.GameOptions
 import net.minecraft.client.render.GameRenderer
 import net.minecraft.resource.ResourceManager
