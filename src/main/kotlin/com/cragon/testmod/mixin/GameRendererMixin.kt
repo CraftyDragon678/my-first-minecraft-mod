@@ -17,7 +17,6 @@ import kotlin.math.min
 @Suppress("unused")
 @Mixin(GameRenderer::class)
 class GameRendererMixin : AutoCloseable, SynchronousResourceReloadListener {
-
     @Redirect(
         at = At(
             value = "FIELD",
@@ -27,7 +26,6 @@ class GameRendererMixin : AutoCloseable, SynchronousResourceReloadListener {
         ), method = ["getFov(Lnet/minecraft/client/render/Camera;FZ)D"]
     )
     private fun getFov(options: GameOptions): Double {
-        val options = MinecraftClient.getInstance().options
         if (zoomInKey.isPressed && zoomOutKey.isPressed) {
             options.fov = 70.0
         } else if (zoomInKey.isPressed) {
@@ -36,8 +34,10 @@ class GameRendererMixin : AutoCloseable, SynchronousResourceReloadListener {
             options.fov += 1
         }
         options.fov = min(max(1.0, options.fov), 155.0)
+        
         return options.fov
     }
+
 
     override fun apply(manager: ResourceManager?) {
     }
