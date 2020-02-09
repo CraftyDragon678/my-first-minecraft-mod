@@ -12,9 +12,6 @@ import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
 import org.lwjgl.glfw.GLFW
 
-
-// For support join https://discord.gg/v6v4pMv
-
 val zoomInKey: FabricKeyBinding = FabricKeyBinding.Builder.create(
     Identifier("testmod", "zoom_in"),
     InputUtil.Type.KEYSYM,
