@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.cragon.TestModKt::init"
+      "com.cragon.testmod.TestModKt::init"
     ]
   },
   "depends": {
