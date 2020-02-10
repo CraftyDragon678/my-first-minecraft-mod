@@ -23,7 +23,7 @@ class GameRendererMixin : AutoCloseable, SynchronousResourceReloadListener {
             target = "Lnet/minecraft/client/options/GameOptions;fov:D",
             opcode = Opcodes.GETFIELD,
             ordinal = 0
-        ), method = ["getFov(Lnet/minecraft/client/render/Camera;FZ)D"]
+        ), method = ["getFov"]
     )
     private fun getFov(options: GameOptions): Double {
         if (zoomInKey.isPressed && zoomOutKey.isPressed) {

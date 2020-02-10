@@ -30,7 +30,8 @@ class CameraMixin {
     @Shadow
     private lateinit var horizontalPlane: Vector3f
 
-    @Inject(at = [At("HEAD")], method = ["clipToSpace(D)D"], cancellable = true)
+
+    @Inject(at = [At("HEAD")], method = ["clipToSpace"], cancellable = true)
     private fun onClipToSpace(
         desiredCameraDistance: Double,
         cir: CallbackInfoReturnable<Double>
