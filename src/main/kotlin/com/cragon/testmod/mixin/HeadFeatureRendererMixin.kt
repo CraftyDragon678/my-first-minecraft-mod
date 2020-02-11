@@ -1,4 +1,4 @@
-package com.cragon.testmod
+package com.cragon.testmod.mixin
 
 import com.mojang.authlib.GameProfile
 import net.fabricmc.api.EnvType
@@ -31,7 +31,7 @@ import java.util.*
 @Environment(EnvType.CLIENT)
 class HeadFeatureRendererMixin<T : LivingEntity?, M>(context: FeatureRendererContext<T, M>?) :
     FeatureRenderer<T, M>(context) where M : EntityModel<T>?, M : ModelWithHead? {
-    val defaultRenderer = HeadFeatureRenderer(context)
+    private val defaultRenderer = HeadFeatureRenderer(context)
 
     override fun render(
         matrixStack: MatrixStack,
