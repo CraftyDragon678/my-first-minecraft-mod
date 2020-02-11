@@ -1,6 +1,8 @@
 package com.cragon.testmod
 
 import com.mojang.authlib.GameProfile
+import net.fabricmc.api.EnvType
+import net.fabricmc.api.Environment
 import net.minecraft.block.AbstractSkullBlock
 import net.minecraft.block.entity.SkullBlockEntity
 import net.minecraft.client.MinecraftClient
@@ -8,6 +10,7 @@ import net.minecraft.client.render.VertexConsumerProvider
 import net.minecraft.client.render.block.entity.SkullBlockEntityRenderer
 import net.minecraft.client.render.entity.feature.FeatureRenderer
 import net.minecraft.client.render.entity.feature.FeatureRendererContext
+import net.minecraft.client.render.entity.feature.HeadFeatureRenderer
 import net.minecraft.client.render.entity.model.EntityModel
 import net.minecraft.client.render.entity.model.ModelWithHead
 import net.minecraft.client.render.model.json.ModelTransformation
@@ -25,9 +28,11 @@ import net.minecraft.util.math.Direction
 import org.apache.commons.lang3.StringUtils
 import java.util.*
 
-
+@Environment(EnvType.CLIENT)
 class HeadFeatureRendererMixin<T : LivingEntity?, M>(context: FeatureRendererContext<T, M>?) :
     FeatureRenderer<T, M>(context) where M : EntityModel<T>?, M : ModelWithHead? {
+    val defaultRenderer = HeadFeatureRenderer(context)
+
     override fun render(
         matrixStack: MatrixStack,
         vertexConsumerProvider: VertexConsumerProvider,
@@ -40,7 +45,11 @@ class HeadFeatureRendererMixin<T : LivingEntity?, M>(context: FeatureRendererCon
         k: Float,
         l: Float
     ) {
-        val itemStack = livingEntity!!.getEquippedStack(EquipmentSlot.HEAD)
+        if (!livingEntity!!.isInvisible) {
+            defaultRenderer.render(matrixStack, vertexConsumerProvider, i, livingEntity, f, g, h, j, k, l)
+            return
+        }
+        val itemStack = livingEntity.getEquippedStack(EquipmentSlot.HEAD)
         if (!itemStack.isEmpty) {
             val item = itemStack.item
             matrixStack.push()
@@ -56,7 +65,8 @@ class HeadFeatureRendererMixin<T : LivingEntity?, M>(context: FeatureRendererCon
             (this.contextModel as ModelWithHead).head.rotate(matrixStack)
             if (item is BlockItem && item.block is AbstractSkullBlock) {
                 p = 1.1875f
-                matrixStack.scale(1.1875f, -1.1875f, -1.1875f)
+                matrixStack.scale(2f, -2f, -2f)
+                matrixStack.translate(0.0, - 0.0625 * 3.5, 0.0)
                 if (bl) {
                     matrixStack.translate(0.0, 0.0625, 0.0)
                 }
