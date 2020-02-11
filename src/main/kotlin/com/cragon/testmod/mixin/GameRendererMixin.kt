@@ -33,7 +33,7 @@ class GameRendererMixin : AutoCloseable, SynchronousResourceReloadListener {
         } else if (zoomOutKey.isPressed) {
             options.fov += 1
         }
-        options.fov = min(max(1.0, options.fov), 155.0)
+        options.fov = min(max(1.0, options.fov), 150.0)
         
         return options.fov
     }
