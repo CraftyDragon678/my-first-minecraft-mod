@@ -1,4 +1,4 @@
-package com.cragon.testmod.mixin
+package com.cragon.testmod
 
 import com.mojang.authlib.GameProfile
 import net.fabricmc.api.EnvType

@@ -1,5 +1,6 @@
 package com.cragon.testmod.mixin
 
+import com.cragon.testmod.HeadFeatureRendererMixin
 import net.minecraft.client.render.entity.ArmorStandEntityRenderer
 import net.minecraft.client.render.entity.EntityRenderDispatcher
 import net.minecraft.client.render.entity.LivingEntityRenderer
