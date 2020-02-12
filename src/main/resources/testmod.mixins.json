@@ -7,7 +7,10 @@
   "client": [
     "GameRendererMixin",
     "CameraMixin",
-    "ArmorStandEntityRendererMixin"
+    "ArmorStandEntityRendererMixin",
+    "ClientPlayerEntityMixin",
+    "ClientCommandSourceMixin",
+    "NetworkHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

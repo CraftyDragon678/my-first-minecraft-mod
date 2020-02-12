@@ -1,10 +1,13 @@
 package com.cragon.testmod
 
+import com.mojang.brigadier.arguments.StringArgumentType.string
 import net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding
 import net.fabricmc.fabric.api.client.keybinding.KeyBindingRegistry
+import net.fabricmc.fabric.api.registry.CommandRegistry
 import net.minecraft.client.util.InputUtil
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
+import net.minecraft.server.command.CommandManager
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
 import org.lwjgl.glfw.GLFW
@@ -34,6 +37,22 @@ fun init() {
     KeyBindingRegistry.INSTANCE.addCategory("test mod")
     KeyBindingRegistry.INSTANCE.register(zoomInKey)
     KeyBindingRegistry.INSTANCE.register(zoomOutKey)
+
+    CommandRegistry.INSTANCE.register(false) {
+        it.register(CommandManager.literal("cam")
+            .then(CommandManager.argument("t", string())
+                .executes {
+                    println("test")
+                    return@executes 1
+                }
+            ).executes {
+                println("arguments error")
+                return@executes 1
+            }
+        )
+    }
+
+
 }
 
 
